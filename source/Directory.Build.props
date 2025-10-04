@@ -1,0 +1,32 @@
+﻿<Project>
+
+  <PropertyGroup>
+	<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	<NoWarn>1591;1701;1702;1705;NU1901;NU1902;NU1903;NU1904</NoWarn>
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+	<Authors>Erhan Krasniqi</Authors>
+	<Company>Erhan Krasniqi</Company>
+	<Owners>Erhan Krasniqi</Owners>
+	<Copyright>Copyright (c) Erhan Krasniqi 2025</Copyright>
+	<PackageIcon>icon-128x128.png</PackageIcon>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryUrl>https://github.com/erhankrasniqi/CQRSDecorateNet</RepositoryUrl>
+	<PackageProjectUrl>https://github.com/erhankrasniqi/CQRSDecorateNet</PackageProjectUrl>
+	<NeutralLanguage>en-US</NeutralLanguage>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+	<DebugType>portable</DebugType>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+	<None Include="$(MSBuildProjectDirectory)\..\..\assets\icon\icon-128x128.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
